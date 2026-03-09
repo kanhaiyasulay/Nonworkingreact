@@ -6,10 +6,10 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Auth0Provider
-    domain="dev-abcd123.us.auth0.com"
+    domain="dev-e1ewmhkuznon2jzs.us.auth0.com"
     clientId="YOUR_CLIENT_ID"
     authorizationParams={{
-      redirect_uri: window.location.origin,
+      redirect_uri: window.location.origin
     }}
   >
     <App />
